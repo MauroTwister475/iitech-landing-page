@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #c8cecf;
+  border-radius: 1rem;
+  cursor: pointer !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #3d3e4171;
+  border-radius: 1.4rem;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@keyframes animationUp {
+  from {
+    bottom: 0;
+    transition: 0.3s ease;
+  }
+  to {
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.animaTop {
+  animation: animationUp 0.3s ease;
+  background: "#f00";
+}
