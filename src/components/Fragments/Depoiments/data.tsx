@@ -1,4 +1,3 @@
-
 interface DepoimentsProps {
   image: string;
   name: string;
@@ -9,44 +8,45 @@ interface DepoimentsProps {
 export const DEPOIMENTS: DepoimentsProps[] = [
   {
     image: "https://github.com/MauroTwister475.png",
-    name: "King Dacis",
-    userName: "@dacis",
-    comment: "This landing page is awesome!",
+    name: "Dennis Seven",
+    userName: "Cliente",
+    comment:
+      "Eu precisava de uma solução rápida para um problema crítico em nossa infraestrutura de rede. A equipe da IItech foi extremamente profissional e eficiente. Em menos de 24 horas, tudo estava funcionando perfeitamente. Não só resolveram o problema, mas também otimizaram nossa rede para evitar futuros problemas. Recomendo fortemente!",
   },
   {
     image: "https://github.com/orodrigo.png",
     name: "Lucas Pazito",
-    userName: "@lucas12",
+    userName: "Cliente e Parceiro",
     comment:
-      "Lorem ipsum dolor sit amet,empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+      "A IItech desenvolveu o site da minha empresa e superou todas as expectativas. O design é moderno, a navegação é intuitiva e recebemos inúmeros elogios de nossos clientes.",
   },
 
   {
     image: "https://github.com/diego3g.png",
     name: "John Smith",
-    userName: "@smith75",
+    userName: "Cliente",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "Contratamos a IItech para desenvolver um aplicativo móvel que atendesse às necessidades específicas dos nossos usuários. A equipe foi incrível, desde o planejamento até a execução.",
   },
   {
     image: "https://github.com/afonsodasilva1.png",
-    name: "Evandra Ventura",
-    userName: "@Evandra",
+    name: "Afonso da Silva",
+    userName: "Cliente",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Tive uma experiência excelente com a IItech ao precisar de um serviço de suporte técnico. Eles foram rápidos em responder e resolveram meus problemas com grande eficiência. .",
   },
   {
     image: "https://github.com/MiguelDeep.png",
     name: "John Doe React",
-    userName: "@john_Doe4",
+    userName: "Cliente",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud.",
+      "Os serviços de programação oferecidos pela IItech foram essenciais para o nosso projeto. Eles entenderam nossas necessidades desde o início e entregaram um software de alta qualidade dentro do prazo estipulado.",
   },
   {
     image: "https://github.com/shadcn.png",
     name: "Eddy Power",
-    userName: "@power23",
+    userName: "Parceiro",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Trabalhar com a IItech é um sonho realizado. Equipa eficiente, copetente e tudo mais.",
   },
 ];
