@@ -5,9 +5,10 @@ import { motion } from "framer-motion";
 export function AboutContent() {
   return (
     <motion.div
-      initial={{ x: "100vw" }}
-      animate={{ x: 0 }}
-      transition={{ duration: 1.6 }}
+      initial={{ x: 100, opacity: 0 }}
+      whileInView={{ x: 0, opacity: 1 }}
+      exit={{ x: 100, opacity: 0 }}
+      transition={{ duration: 1 }}
       className="w-full h-full flex flex-col space-y-4"
     >
       <Title size="md" title="Sobre Nós" />

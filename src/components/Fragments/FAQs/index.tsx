@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { SectionContent } from "@/components/Section-Content";
 import {
   Accordion,
@@ -13,22 +13,25 @@ import { motion } from "framer-motion";
 export function FAQS() {
   return (
     <SectionContent id="faqs" className="bg-blue-600/5 space-y-6">
-      <motion.div
-        className="w-full flex flex-col items-center space-y-6"
-        initial={{ x: "100vw" }}
-        animate={{ x: 0 }}
-        transition={{ duration: 0.8 }}
-      >
+      <div className="w-full flex flex-col items-center space-y-6">
         <Title size="md" title="Perguntas frequentes" />
         <Accordion type="single" collapsible className="w-full AccordionRoot">
-          {FAQList.map(({ question, answer, value }) => (
-            <AccordionItem key={value} value={value}>
-              <AccordionTrigger className="text-left">
-                {question}
-              </AccordionTrigger>
+          {FAQList.map((FAQ, index) => (
+            <motion.div
+              key={index}
+              initial={{ y: 100, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              exit={{ y: 100, opacity: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.3 }}
+            >
+              <AccordionItem key={FAQ.value} value={FAQ.value}>
+                <AccordionTrigger className="text-lg text-left">
+                  {FAQ.question}
+                </AccordionTrigger>
 
-              <AccordionContent>{answer}</AccordionContent>
-            </AccordionItem>
+                <AccordionContent className="text-lg">{FAQ.answer}</AccordionContent>
+              </AccordionItem>
+            </motion.div>
           ))}
         </Accordion>
         <h3 className="font-medium mt-8">
@@ -41,7 +44,7 @@ export function FAQS() {
             Contacte-nos
           </a>
         </h3>
-      </motion.div>
+      </div>
     </SectionContent>
   );
 }
