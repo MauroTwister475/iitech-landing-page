@@ -13,6 +13,7 @@ export function ServiceCard() {
     <div className="grid grid-cols-1 md:grid-cols-2 flex-wrap lg:flex lg:flex-col gap-8">
       {SERVICES.map(({ Icon, duration, title, description }) => (
         <motion.div
+          key={title}
           className="transition-all ease-in-out"
           initial={{ x: "-1000vw" }}
           animate={{ x: 0 }}
