@@ -1,5 +1,5 @@
 import { Cable, Code, Figma, HardDrive, WalletIcon } from "lucide-react";
-import { ElementType, ReactNode } from "react";
+import { ElementType } from "react";
 
 interface ServiceProps {
   title: string;
@@ -12,35 +12,35 @@ export const SERVICES: ServiceProps[] = [
   {
     title: "Programação",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Desenvolvimento de software personalizado utilizando as tecnologias mais modernas para atender às necessidades específicas do seu negócio.",
     Icon: Code,
     duration: 2,
   },
   {
     title: "Consultoria TCC",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Orientação especializada para a elaboração e desenvolvimento do seu Trabalho de Conclusão de Curso (TCC), garantindo qualidade e excelência.",
     Icon: WalletIcon,
     duration: 2.5,
   },
   {
     title: "Redes de Computadores",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Configuração e manutenção de redes de computadores, garantindo conectividade e segurança para sua infraestrutura de TI.",
     Icon: Cable,
     duration: 3,
   },
   {
     title: "Hardware e reparação",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Serviços de diagnóstico e reparo de hardware, assegurando que seus equipamentos funcionem de maneira eficiente e confiável.",
     Icon: HardDrive,
     duration: 3.5,
   },
   {
     title: "Design Gráfico",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Criação de designs gráficos profissionais para promover sua marca, incluindo logotipos, materiais de marketing e mais.",
     Icon: Figma,
     duration: 4
   },
