@@ -37,7 +37,7 @@ export function ButtonBackTop() {
       {showTopBtn && (
         <ButtonPrimary
           Icon={ArrowUp}
-          className="w-10 h-10 lg:w-10 px-1 py-0 absolute bottom-8 right-4 opacity-90 shadow-md transition-all"
+          className="w-10 h-10 md:w-10 md:h-10 lg:w-10 lg:h-10 px-1 py-0 absolute animate-bounce bottom-8 right-4 shadow-md transition-all"
           onClick={goToTop}
         />
       )}

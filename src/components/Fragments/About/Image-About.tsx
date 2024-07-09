@@ -1,17 +1,17 @@
 "use client";
 import Image, { StaticImageData } from "next/image";
 import { motion } from "framer-motion";
-import heroImage from "@/assets/hero.svg";
+import aboutImage from "@/assets/hero1.svg";
 
-export function HeroImage({ urlImage = heroImage }: { urlImage?: StaticImageData }) {
+export function AboutImage() {
   return (
     <motion.div
-      initial={{ x: "100vw" }}
+      initial={{ x: "-100vw" }}
       animate={{ x: 0 }}
-      transition={{ duration: 2 }}
+      transition={{ duration: 0.8 }}
       className="hidden w-full h-full lg:flex items-center justify-center"
     >
-      <Image src={urlImage} alt="hero image" />
+      <Image src={aboutImage as StaticImageData} alt="hero image" />
     </motion.div>
   );
 }

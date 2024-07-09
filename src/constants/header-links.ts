@@ -1,4 +1,4 @@
-export type LinkType = "#services" | "#about" | "#depoiments" | "#home"
+export type LinkType = "#services" | "#about" | "#depoiments" | "#home" | "#faqs"
 
 export type LinkTypeProps = {
   name: string;
@@ -21,5 +21,9 @@ export const HEADERLINKS: LinkTypeProps[] = [
   {
     href: "#depoiments",
     name: "Depoimentos",
+  },
+  {
+    href: "#faqs",
+    name: "FAQs",
   },
 ]
