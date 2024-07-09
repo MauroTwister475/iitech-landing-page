@@ -31,7 +31,4 @@ export default function Home() {
 export const metadata: Metadata = {
   title: "IItech | Home",
   description: "Its a homepage of IItech company",
-  icons: {
-    icon: "/next.svg",
-  },
 };
