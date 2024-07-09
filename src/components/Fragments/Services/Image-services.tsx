@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import cubeLeg from "@/assets/hero.svg";
+import servicesImage from "@/assets/services.svg";
 import { motion } from "framer-motion";
 
 export function ImageServices() {
@@ -11,7 +11,7 @@ export function ImageServices() {
       transition={{ duration: 2}}
     >
       <Image
-      src={cubeLeg}
+      src={servicesImage}
       className="hidden lg:flex w-[300px] md:w-[500px] lg:w-[600px] object-contain"
       alt="About services"
     />

@@ -1,7 +1,7 @@
 "use client";
 import Image, { StaticImageData } from "next/image";
 import { motion } from "framer-motion";
-import aboutImage from "@/assets/hero1.svg";
+import aboutImage from "@/assets/team.svg";
 
 export function AboutImage() {
   return (
