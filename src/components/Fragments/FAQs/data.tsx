@@ -7,33 +7,33 @@ export interface FAQProps {
 
 export const FAQList: FAQProps[] = [
   {
-    question: "Onde fica a IItech?",
-    answer: "Yes. It is a free IItech site.",
+    question: "Quais serviços a Iitech oferece?",
+    answer: "A Iitech oferece uma ampla gama de serviços, incluindo desenvolvimento de software personalizado, design de websites, suporte e manutenção de TI, soluções de segurança cibernética, consultoria em TI, e otimização de infraestrutura de rede. Estamos comprometidos em fornecer soluções tecnológicas inovadoras para atender às necessidades específicas de cada cliente",
     value: "item-1",
   },
   {
-    question: "Como posso pagar um serviço da IItech?",
+    question: "Como posso solicitar um orçamento para um projeto?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Para solicitar um orçamento, você pode entrar em contato conosco através do nosso formulário de contato no site, enviar um e-mail para iitech@gmail.com ou ligar para 945 551 192. Nossa equipe de atendimento ao cliente irá responder rapidamente para discutir os detalhes do seu projeto e fornecer um orçamento personalizado.",
     value: "item-2",
   },
   {
     question:
-      "Quais são os serviços que a IItech me disponibiliza?",
+      "A Iitech oferece suporte técnico contínuo após a conclusão do projeto?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
+      "Sim, oferecemos suporte técnico contínuo para garantir que todos os sistemas e soluções funcionem perfeitamente após a conclusão do projeto. Nossos pacotes de suporte incluem monitoramento contínuo, atualizações regulares, e assistência técnica para resolver quaisquer problemas que possam surgir",
     value: "item-3",
   },
   {
     question: "Quanto tempo leva a realização de um serviço prestado pela IItech?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    answer: "Normalmente o tempo de realização de um serviço depende muito de vários factores, dentre eles estão: A dimensão do projecto, a Complexidade, o plano entre outros.",
     value: "item-4",
   },
   {
     question:
-      "Quais os métodos de pagamentos disponiveis na IItech?",
+      "Como a Iitech garante a segurança dos dados dos clientes?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Resposta: A segurança dos dados dos nossos clientes é uma prioridade máxima para a Iitech. Implementamos as melhores práticas e tecnologias de segurança para proteger os dados contra acessos não autorizados, ataques cibernéticos e outras ameaças. Nossas soluções incluem criptografia de dados, firewalls, sistemas de detecção de intrusões e políticas rigorosas de controle de acesso",
     value: "item-5",
   },
 ];
