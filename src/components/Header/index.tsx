@@ -10,7 +10,7 @@ export function Header() {
       initial={{ y: -50, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.3 }}
-      className=" sticky z-40 w-full top-0 bg-white border-b py-4 px-6 lg:px-24 flex items-center justify-between"
+      className=" sticky z-40 w-full top-0 bg-white border-b py-4 px-6 lg:px-24 flex items-center justify-between backdrop-blur-[2px] bg-[rgba(255,255,255,0.75)]"
     >
       <Logo size={40} />
       <MenuMobile />
